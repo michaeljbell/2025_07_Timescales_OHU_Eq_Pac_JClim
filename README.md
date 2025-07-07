@@ -14,15 +14,22 @@ This README file contains the following sections:
 
 ## 1) Data set inputs
 
-### a) CMIP6HighResMIP - 
+### a) CMIP6HighResMIP
+
+These datasets are described on https://code.metoffice.gov.uk/trac/ukcmip6/wiki
 
 ### b) ERA5 
 
+These datasets were downloaded as monthly mean fields (in netcdf format) from the Copernicus web site: 
+ https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=download
+
 ### c) DEEP-C
+
+These data were downloaded from https://researchdata.reading.ac.uk/347/
 
 ### d) CMIP6
 
-There are two sources of input files. Both were downloaded from the CMIP6 facility: 
+There are two sources of input files. Both were downloaded from ESGF (Earth System Grid Federation) described in https://doi.org/10.1016/j.future.2013.07.002 using the MetOffice's managecmip tool 
 
 1. 500-year timeseries of piControl. These files contain all months for the first 500 years of the piControl simulation for a specific variable. The (slightly irregular) filenames for these files are constructed by cmip6\_file\_names within utilities\_CMIP6.py.
 
