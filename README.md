@@ -9,7 +9,7 @@
 5. [Licence](#licence)
 6. [Acknowledgements](acknowledgements)
 
-## 1. Introduction 
+## Introduction 
 
 This github repository contains the scripts used to produce the figures in: <br> 
 
@@ -17,7 +17,7 @@ Bell, M. J. and J. A. Baker, 2025 On what Timescales do zonal surface wind stres
  
 The scripts were written by Mike Bell.
 
-## 2. Data set inputs
+## Data sets used as inputs
 
 ### a) CMIP6HighResMIP
 
@@ -40,7 +40,7 @@ There are two sources of input files. Both were downloaded from ESGF (Earth Syst
 
 2. Shorter timeseries for piControl, abrupt-4xCO2, 1pctCO2 and ssp245 integrations. These files are read by field\_build\_annual\_decade\_means\_CMIP6.py
 
-## 3. Short descriptions of the scripts used to generate each figure 
+## Short descriptions of the scripts used to generate each figure 
 
 Note that all of these scripts include user input sections. These sections need to be modified by the user to generate specific plots. 
 This library does not include details of the specific user choices made to generate all the plots in the paper. All the scripts are in the scripts directory. 
@@ -162,7 +162,7 @@ Same scripts as Figure 4
  
  Same scripts as Figure 4 (a) - (c).
  
- ## 4. Description of the organisation and naming of the scripts and data sets 
+ ## Description of the organisation and naming of the scripts and data sets 
 
 The scripts assume that the following top-level directories have been set up: 
 
@@ -192,11 +192,11 @@ In the scripts, the lowest level functions are defined before the higher level o
 
 The names of the output files (png or timeseries) are intended to be self-describing. Unlike pp or netcdf files there is no header inside the file that contains loads of metadata. The metadata is in the filename itself. This has pros and cons - but is not a bad choice for research code.
 
- ## 5. Licence 
+ ## Licence 
  
  © Crown copyright, Met Office (2020-2025).
  
- ## 6. Acknowledgements
+ ## Acknowledgements
  
  The scripts use python and the cartopy, matlplotlib, netCDF and numpy utilities. 
  
