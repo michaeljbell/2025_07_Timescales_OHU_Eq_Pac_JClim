@@ -1,18 +1,23 @@
 # README file for git@github.com:michaeljbell/2025\_07\_Timescales\_OHU\_Eq\_Pac\_JClim
 
-## Introduction 
+## Table of contents
+
+1. [Introduction](#introduction)
+2. [Data sets used as inputs](Data-sets-used-as-inputs) 
+3. [Short descriptions of the scripts used to generate each figure](#Short-descriptions-of-the-scripts-used-to-generate-each-figure) 
+4. [Description of the organisation and naming of the scripts and data sets](#Description-of-the-organisation-and-naming-of-the-scripts-and-data-sets) 
+5. [Licence](#licence)
+6. [Acknowledgements](acknowledgements)
+
+## 1. Introduction 
 
 This github repository contains the scripts used to produce the figures in: <br> 
 
 Bell, M. J. and J. A. Baker, 2025 On what Timescales do zonal surface wind stresses drive heat uptake in the equatorial Pacific ocean? J Climatology, accepted. 
  
-This README file contains the following sections: 
+The scripts were written by Mike Bell.
 
-- Data set inputs. This describes how to access the main data sets used as inputs to the scripts
-- Short descriptions of the scripts used to generate each figure 
-- Description of the organisation and naming of the scripts and data sets 
-
-## 1) Data set inputs
+## 2. Data set inputs
 
 ### a) CMIP6HighResMIP
 
@@ -35,7 +40,7 @@ There are two sources of input files. Both were downloaded from ESGF (Earth Syst
 
 2. Shorter timeseries for piControl, abrupt-4xCO2, 1pctCO2 and ssp245 integrations. These files are read by field\_build\_annual\_decade\_means\_CMIP6.py
 
-## 2) Short descriptions of the scripts used to generate each figure 
+## 3. Short descriptions of the scripts used to generate each figure 
 
 Note that all of these scripts include user input sections. These sections need to be modified by the user to generate specific plots. 
 This library does not include details of the specific user choices made to generate all the plots in the paper. All the scripts are in the scripts directory. 
@@ -157,7 +162,7 @@ Same scripts as Figure 4
  
  Same scripts as Figure 4 (a) - (c).
  
- ## 3) Description of the organisation and naming of the scripts and data sets 
+ ## 4. Description of the organisation and naming of the scripts and data sets 
 
 The scripts assume that the following top-level directories have been set up: 
 
@@ -186,4 +191,14 @@ In the scripts, the lowest level functions are defined before the higher level o
 
 
 The names of the output files (png or timeseries) are intended to be self-describing. Unlike pp or netcdf files there is no header inside the file that contains loads of metadata. The metadata is in the filename itself. This has pros and cons - but is not a bad choice for research code.
+
+ ## 5. Licence 
+ 
+ © Crown copyright, Met Office (2020-2025).
+ 
+ ## 6. Acknowledgements
+ 
+ The scripts use python and the cartopy, matlplotlib, netCDF and numpy utilities. 
+ 
+ We acknowledge the Earth System Grid Federation (ESGF) for archiving and providing access to much of the data used with these scripts.  
 
