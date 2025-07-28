@@ -3,11 +3,11 @@
 ## Table of contents
 
 1. [Introduction](#introduction)
-2. [Data sets used as inputs](Data-sets-used-as-inputs) 
+2. [Data sets used as inputs](#datasets-used-as-inputs) 
 3. [Short descriptions of the scripts used to generate each figure](#Short-descriptions-of-the-scripts-used-to-generate-each-figure) 
 4. [Description of the organisation and naming of the scripts and data sets](#Description-of-the-organisation-and-naming-of-the-scripts-and-data-sets) 
 5. [Licence](#licence)
-6. [Acknowledgements](acknowledgements)
+6. [Acknowledgements](#acknowledgements)
 
 ## Introduction 
 
@@ -17,7 +17,7 @@ Bell, M. J. and J. A. Baker, 2025 On what Timescales do zonal surface wind stres
  
 The scripts were written by Mike Bell.
 
-## Data sets used as inputs
+## Datasets used as inputs
 
 ### a) CMIP6HighResMIP
 
